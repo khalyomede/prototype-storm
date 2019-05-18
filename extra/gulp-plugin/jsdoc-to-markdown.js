@@ -40,9 +40,10 @@ module.exports = function() {
 							.map(example => "```javascript\n" + example + "\n```")
 							.join("\n");
 						const CDNLink = explaination.see[0];
+						const since = `**since** ${explaination.since}`;
 
 						markdowns.push(
-							`${title}\n\n${CDNLink}\n\n${description}\n\n${returns}\n\n${examples}`
+							`${title}\n\n${CDNLink}\n\n${description}\n\n${returns}\n\n${since}\n\n${examples}`
 						);
 					}
 

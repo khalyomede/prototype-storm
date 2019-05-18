@@ -14,6 +14,7 @@ exports["default"] = function () {
      * const number = 42.12345;
      * number.round(3); // 42.123
      * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/round.js)
+     * @since 0.1.0
      */
     Number.prototype.round = function (digits) {
       var typeOfDigits = _typeof(digits);

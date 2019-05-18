@@ -10,6 +10,8 @@ Returns the maximum among all the numbers of the array.
 **return**
 Number
 
+**since** 0.1.0
+
 ```javascript
 const array = [1, 2, 3];
 array.max(); // 3
@@ -22,6 +24,8 @@ Returns the array and removes any duplicates.
 
 **return**
 Array
+
+**since** 0.2.0
 
 ```javascript
 const array = [1, 1, 2, 3, 3, 0, -1];
@@ -36,6 +40,8 @@ Return the absolute value of the number.
 **return**
 Number
 
+**since** 0.1.0
+
 ```javascript
 const number = -42;
 number.absolute(); // 42
@@ -48,6 +54,8 @@ Return the ceil of the number.
 
 **return**
 Number
+
+**since** 0.1.0
 
 ```javascript
 const number = 41.1;
@@ -62,6 +70,8 @@ Convert the number from radians to degrees.
 **return**
 Number
 
+**since** 0.1.0
+
 ```javascript
 const number = 1;
 number.degrees(); // 57.2958
@@ -74,6 +84,8 @@ Returns the floor of the number.
 
 **return**
 Number
+
+**since** 0.1.0
 
 ```javascript
 const number = 42.1;
@@ -88,6 +100,8 @@ Returns true if the number is greater or equal to 0, else returns false.
 **return**
 Boolean
 
+**since** 0.1.0
+
 ```javascript
 const number = 42;
 number.isPositive(); // true
@@ -100,6 +114,8 @@ Returns true if the number is greater or equal to 0, else returns false.
 
 **return**
 String
+
+**since** 0.2.0
 
 ```javascript
 const number = 42;
@@ -114,6 +130,8 @@ Convert the number from degrees to radians.
 **return**
 Number
 
+**since** 0.1.0
+
 ```javascript
 const number = 1;
 number.radians(); // 0.0174533
@@ -127,6 +145,8 @@ Rounds the number to the number of desired digits.
 **return**
 Number
 
+**since** 0.1.0
+
 ```javascript
 const number = 42.12345;
 number.round(3); // 42.123
@@ -139,6 +159,8 @@ Truncates the number.
 
 **return**
 Number
+
+**since** 0.1.0
 
 ```javascript
 const number = 42.123;

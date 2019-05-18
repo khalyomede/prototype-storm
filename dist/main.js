@@ -12,6 +12,7 @@ exports["default"] = function () {
      * const array = [1, 2, 3];
      * array.max(); // 3
      * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/array/max.js)
+     * @since 0.1.0
      */
     Array.prototype.max = function () {
       return Math.max(this.filter(function (item) {
@@ -35,6 +36,7 @@ exports["default"] = function () {
      * const array = [1, 1, 2, 3, 3, 0, -1];
      * array.unduplicate(); // [1, 2, 3, 0, -1]
      * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/array/unduplicate.js)
+     * @since 0.2.0
      */
     Array.prototype.unduplicate = function () {
       return Array.from(new Set(this));
@@ -105,6 +107,7 @@ exports["default"] = function () {
      * const number = -42;
      * number.absolute(); // 42
      * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/absolute.js)
+     * @since 0.1.0
      */
     Number.prototype.absolute = function () {
       return Math.abs(this);
@@ -126,6 +129,7 @@ exports["default"] = function () {
      * const number = 41.1;
      * number.ceil(); // 42
      * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/ceil.js)
+     * @since 0.1.0
      */
     Number.prototype.ceil = function () {
       return Math.ceil(this);
@@ -147,6 +151,7 @@ exports["default"] = function () {
      * const number = 1;
      * number.degrees(); // 57.2958
      * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/degrees.js)
+     * @since 0.1.0
      */
     Number.prototype.degrees = function () {
       return this * 180 / Math.PI;
@@ -168,6 +173,7 @@ exports["default"] = function () {
      * const number = 42.1;
      * number.floor(); // 42
      * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/floor.js)
+     * @since 0.1.0
      */
     Number.prototype.floor = function () {
       return Math.floor(this);
@@ -189,6 +195,7 @@ exports["default"] = function () {
      * const number = 42;
      * number.isPositive(); // true
      * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/is-positive.js)
+     * @since 0.1.0
      */
     Number.prototype.isPositive = function () {
       return [1, 0].includes(Math.sign(this));
@@ -210,6 +217,7 @@ exports["default"] = function () {
      * const number = 42;
      * number.json(); // "42"
      * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/json.js)
+     * @since 0.2.0
      */
     Number.prototype.json = function () {
       return JSON.stringify(this);
@@ -231,6 +239,7 @@ exports["default"] = function () {
      * const number = 1;
      * number.radians(); // 0.0174533
      * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/radians.js)
+     * @since 0.1.0
      */
     Number.prototype.radians = function () {
       return this * Math.PI / 180;
@@ -254,6 +263,7 @@ exports["default"] = function () {
      * const number = 42.12345;
      * number.round(3); // 42.123
      * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/round.js)
+     * @since 0.1.0
      */
     Number.prototype.round = function (digits) {
       var typeOfDigits = _typeof(digits);
@@ -281,6 +291,7 @@ exports["default"] = function () {
      * const number = 42.123;
      * number.truncate(); // 42
      * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/truncate.js)
+     * @since 0.1.0
      */
     Number.prototype.truncate = function () {
       return Math.trunc(this);

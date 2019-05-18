@@ -12,6 +12,7 @@ exports["default"] = function () {
      * const number = 42;
      * number.json(); // "42"
      * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/json.js)
+     * @since 0.2.0
      */
     Number.prototype.json = function () {
       return JSON.stringify(this);
