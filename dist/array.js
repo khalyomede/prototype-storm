@@ -20,6 +20,7 @@ exports["default"] = function () {
      * @example
      * const array = [1, 2, 3];
      * array.max(); // 3
+     * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/array/max.js)
      */
     Array.prototype.max = function () {
       return Math.max(this.filter(function (item) {
@@ -27,8 +28,6 @@ exports["default"] = function () {
       }));
     };
   }
-
-  console.log("test");
 }();
 
 },{}]},{},[1]);

@@ -48,6 +48,7 @@ exports["default"] = function () {
      * @example
      * const number = -42;
      * number.absolute(); // 42
+     * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/absolute.js)
      */
     Number.prototype.absolute = function () {
       return Math.abs(this);
@@ -68,6 +69,7 @@ exports["default"] = function () {
      * @example
      * const number = 41.1;
      * number.ceil(); // 42
+     * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/ceil.js)
      */
     Number.prototype.ceil = function () {
       return Math.ceil(this);
@@ -88,6 +90,7 @@ exports["default"] = function () {
      * @example
      * const number = 1;
      * number.degrees(); // 57.2958
+     * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/degrees.js)
      */
     Number.prototype.degrees = function () {
       return this * 180 / Math.PI;
@@ -108,6 +111,7 @@ exports["default"] = function () {
      * @example
      * const number = 42.1;
      * number.floor(); // 42
+     * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/floor.js)
      */
     Number.prototype.floor = function () {
       return Math.floor(this);
@@ -128,6 +132,7 @@ exports["default"] = function () {
      * @example
      * const number = 42;
      * number.isPositive(); // true
+     * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/is-positive.js)
      */
     Number.prototype.isPositive = function () {
       return [1, 0].includes(Math.sign(this));
@@ -148,6 +153,7 @@ exports["default"] = function () {
      * @example
      * const number = 1;
      * number.radians(); // 0.0174533
+     * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/radians.js)
      */
     Number.prototype.radians = function () {
       return this * Math.PI / 180;
@@ -170,6 +176,7 @@ exports["default"] = function () {
      * @example
      * const number = 42.12345;
      * number.round(3); // 42.123
+     * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/round.js)
      */
     Number.prototype.round = function (digits) {
       var typeOfDigits = _typeof(digits);
@@ -196,6 +203,7 @@ exports["default"] = function () {
      * @example
      * const number = 42.123;
      * number.truncate(); // 42
+     * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/truncate.js)
      */
     Number.prototype.truncate = function () {
       return Math.trunc(this);
