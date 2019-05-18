@@ -24,6 +24,7 @@
 		"jsdoc-to-markdown": "5.*",
 		"mocha": "6.*",
 		"mocha-parallel-tests": "2.*",
+		"np": "5.*",
 		"plugin-error": "1.*",
 		"through2": "3.*",
 		"typescript": "3.*"
