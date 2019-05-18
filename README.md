@@ -2,6 +2,8 @@
 
 Supercharge your Javascript!
 
+![https://npmjs.org/@khalyomede/prototype-storm](https://img.shields.io/npm/v/@khalyomede/prototype-storm.svg?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@khalyomede/prototype-storm.svg?style=flat-square) ![NPM](https://img.shields.io/npm/l/@khalyomede/prototype-storm.svg?style=flat-square) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@khalyomede/prototype-storm.svg?style=flat-square)
+
 ## Summary
 
 - [About](#about)
