@@ -51,3 +51,7 @@ Or import the whole prototypes:
 ```javascript
 import "@khalyomede/prototype-storm"; // Everything objects have been supercharged!
 ```
+
+## Prototypes documentation
+
+You can find the full documentation here: [prototypes](prototypes.md).
