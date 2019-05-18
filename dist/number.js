@@ -23,6 +23,10 @@ var is_positive_1 = require("./number/is-positive");
 
 exports.isPositive = is_positive_1["default"];
 
+var json_1 = require("./number/json");
+
+exports.json = json_1["default"];
+
 var radians_1 = require("./number/radians");
 
 exports.radians = radians_1["default"];
@@ -35,7 +39,7 @@ var truncate_1 = require("./number/truncate");
 
 exports.truncate = truncate_1["default"];
 
-},{"./number/absolute":2,"./number/ceil":3,"./number/degrees":4,"./number/floor":5,"./number/is-positive":6,"./number/radians":7,"./number/round":8,"./number/truncate":9}],2:[function(require,module,exports){
+},{"./number/absolute":2,"./number/ceil":3,"./number/degrees":4,"./number/floor":5,"./number/is-positive":6,"./number/json":7,"./number/radians":8,"./number/round":9,"./number/truncate":10}],2:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -146,6 +150,27 @@ exports["default"] = function () {
 exports.__esModule = true;
 
 exports["default"] = function () {
+  if (!("json" in Number)) {
+    /**
+     * @description Returns true if the number is greater or equal to 0, else returns false.
+     * @return {String}
+     * @example
+     * const number = 42;
+     * number.json(); // "42"
+     * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/json.js)
+     */
+    Number.prototype.json = function () {
+      return JSON.stringify(this);
+    };
+  }
+}();
+
+},{}],8:[function(require,module,exports){
+"use strict";
+
+exports.__esModule = true;
+
+exports["default"] = function () {
   if (!("radians" in Number)) {
     /**
      * @description Convert the number from degrees to radians.
@@ -161,7 +186,7 @@ exports["default"] = function () {
   }
 }();
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 "use strict";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -190,7 +215,7 @@ exports["default"] = function () {
   }
 }();
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;

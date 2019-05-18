@@ -14,6 +14,19 @@ Number
 const array = [1, 2, 3];
 array.max(); // 3
 ```
+## Array.unduplicate()
+
+[CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/array/unduplicate.js)
+
+Returns the array and removes any duplicates.
+
+**return**
+Array
+
+```javascript
+const array = [1, 1, 2, 3, 3, 0, -1];
+array.unduplicate(); // [1, 2, 3, 0, -1]
+```
 ## Number.absolute()
 
 [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/absolute.js)
@@ -78,6 +91,19 @@ Boolean
 ```javascript
 const number = 42;
 number.isPositive(); // true
+```
+## Number.json()
+
+[CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/json.js)
+
+Returns true if the number is greater or equal to 0, else returns false.
+
+**return**
+String
+
+```javascript
+const number = 42;
+number.json(); // "42"
 ```
 ## Number.radians()
 
