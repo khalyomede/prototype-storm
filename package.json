@@ -32,6 +32,10 @@
 	"scripts": {
 		"start": "gulp start",
 		"build": "gulp build",
-		"test": "mocha --recursive --require @babel/register test"
+		"test": "mocha --recursive --require @babel/register test",
+		"release": "np"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
