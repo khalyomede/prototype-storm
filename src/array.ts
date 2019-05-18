@@ -1,3 +1,4 @@
 import max from "./array/max";
+import unduplicate from "./array/unduplicate";
 
-export { max };
+export { max, unduplicate };

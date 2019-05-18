@@ -1,4 +1,5 @@
 import max from "./array/max";
+import unduplicate from "./array/unduplicate";
 import absolute from "./number/absolute";
 import ceil from "./number/ceil";
 import degrees from "./number/degrees";
@@ -10,6 +11,7 @@ import truncate from "./number/truncate";
 
 export {
 	max,
+	unduplicate,
 	absolute,
 	ceil,
 	degrees,
