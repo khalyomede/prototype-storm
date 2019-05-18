@@ -5,6 +5,7 @@ import clean from "gulp-clean";
 import jsdocToMarkdown from "./extra/gulp-plugin/jsdoc-to-markdown";
 import concat from "gulp-concat";
 import bro from "gulp-bro";
+import uglifyEs from "gulp-uglify-es";
 
 const js = () =>
 	src("src/**/*.ts")
@@ -20,6 +21,7 @@ const dist = () =>
 				transform: ["babelify"]
 			})
 		)
+		.pipe(uglifyEs())
 		.pipe(dest("dist"));
 
 const clearLib = () =>

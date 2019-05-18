@@ -20,6 +20,7 @@
 		"gulp-concat": "2.*",
 		"gulp-plumber": "1.*",
 		"gulp-typescript": "5.*",
+		"gulp-uglify-es": "1.*",
 		"jsdoc-api": "5.*",
 		"jsdoc-to-markdown": "5.*",
 		"mocha": "6.*",
