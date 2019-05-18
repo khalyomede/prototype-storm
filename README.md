@@ -49,7 +49,7 @@ numbers
 Or import the whole prototypes:
 
 ```javascript
-import "@khalyomede/prototype-storm"; // Everything objects have been supercharged!
+import "@khalyomede/prototype-storm"; // Every objects have been supercharged!
 ```
 
 ## Prototypes documentation
