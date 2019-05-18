@@ -6,7 +6,7 @@ export default (() => {
 		 * @example
 		 * const number = 1;
 		 * number.degrees(); // 57.2958
-		 * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/degrees.js)
+		 * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.2.0/dist/number/degrees.js)
 		 * @since 0.1.0
 		 */
 		Number.prototype.degrees = function(): Number {

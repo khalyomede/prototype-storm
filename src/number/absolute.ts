@@ -6,7 +6,7 @@ export default (() => {
 		 * @example
 		 * const number = -42;
 		 * number.absolute(); // 42
-		 * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/number/absolute.js)
+		 * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.2.0/dist/number/absolute.js)
 		 * @since 0.1.0
 		 */
 		Number.prototype.absolute = function(): Number {

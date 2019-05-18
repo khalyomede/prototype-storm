@@ -6,7 +6,7 @@ export default (() => {
 		 * @example
 		 * const array = [1, 2, 3];
 		 * array.max(); // 3
-		 * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.1.0/dist/array/max.js)
+		 * @see [CDN link](https://unpkg.com/@khalyomede/prototype-storm@0.2.0/dist/array/max.js)
 		 * @since 0.1.0
 		 */
 		Array.prototype.max = function(): Number {
