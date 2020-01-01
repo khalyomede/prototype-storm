@@ -1,6 +1,6 @@
 {
   "name": "@khalyomede/prototype-storm",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Supercharge your Javascript!",
   "main": "lib/main.js",
   "repository": "https://github.com/khalyomede/prototype-storm",
