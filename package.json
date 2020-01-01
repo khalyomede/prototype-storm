@@ -1,42 +1,43 @@
 {
-	"name": "@khalyomede/prototype-storm",
-	"version": "0.2.0",
-	"description": "Supercharge your Javascript!",
-	"main": "lib/main.js",
-	"repository": "https://github.com/khalyomede/prototype-storm",
-	"author": "Khalyomede <khalyomede@gmail.com>",
-	"license": "MIT",
-	"private": false,
-	"devDependencies": {
-		"@babel/core": "7.*",
-		"@babel/preset-env": "7.*",
-		"@babel/register": "7.*",
-		"@types/node": "12.*",
-		"babelify": "10.*",
-		"chai": "4.*",
-		"gulp": "4.*",
-		"gulp-bro": "1.*",
-		"gulp-clean": "0.*",
-		"gulp-concat": "2.*",
-		"gulp-plumber": "1.*",
-		"gulp-typescript": "5.*",
-		"gulp-uglify-es": "1.*",
-		"jsdoc-api": "5.*",
-		"jsdoc-to-markdown": "5.*",
-		"mocha": "6.*",
-		"mocha-parallel-tests": "2.*",
-		"np": "5.*",
-		"plugin-error": "1.*",
-		"through2": "3.*",
-		"typescript": "3.*"
-	},
-	"scripts": {
-		"start": "gulp start",
-		"build": "gulp build",
-		"test": "mocha --recursive --require @babel/register test",
-		"release": "np"
-	},
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@khalyomede/prototype-storm",
+  "version": "0.2.0",
+  "description": "Supercharge your Javascript!",
+  "main": "lib/main.js",
+  "repository": "https://github.com/khalyomede/prototype-storm",
+  "author": "Khalyomede <khalyomede@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "7.*",
+    "@babel/preset-env": "7.*",
+    "@babel/register": "7.*",
+    "@types/node": "12.*",
+    "babelify": "10.*",
+    "chai": "4.*",
+    "gulp": "4.*",
+    "gulp-bro": "1.*",
+    "gulp-clean": "0.*",
+    "gulp-concat": "2.*",
+    "gulp-plumber": "1.*",
+    "gulp-typescript": "5.*",
+    "gulp-uglify-es": "1.*",
+    "jsdoc-api": "5.*",
+    "jsdoc-to-markdown": "5.*",
+    "mocha": "6.*",
+    "mocha-parallel-tests": "2.*",
+    "np": "5.*",
+    "npm-check-updates": "4.*",
+    "plugin-error": "1.*",
+    "through2": "3.*",
+    "typescript": "3.*"
+  },
+  "scripts": {
+    "start": "ncu && gulp start",
+    "build": "ncu && gulp build",
+    "test": "mocha --recursive --require @babel/register test",
+    "release": "np"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
