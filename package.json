@@ -32,7 +32,7 @@
     "typescript": "3.*"
   },
   "scripts": {
-    "start": "ncu && gulp start",
+    "start": "ncu && gulp build && gulp start",
     "build": "ncu && gulp build",
     "test": "mocha --recursive --require @babel/register test",
     "release": "np"
