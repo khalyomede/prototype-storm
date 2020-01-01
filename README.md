@@ -2,7 +2,7 @@
 
 Supercharge your Javascript!
 
-![https://npmjs.org/@khalyomede/prototype-storm](https://img.shields.io/npm/v/@khalyomede/prototype-storm.svg) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@khalyomede/prototype-storm.svg) ![NPM](https://img.shields.io/npm/l/@khalyomede/prototype-storm.svg) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@khalyomede/prototype-storm.svg) [![Build Status](https://travis-ci.com/khalyomede/prototype-storm.svg?branch=master)](https://travis-ci.com/khalyomede/prototype-storm)
+![https://npmjs.org/@khalyomede/prototype-storm](https://img.shields.io/npm/v/@khalyomede/prototype-storm.svg) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@khalyomede/prototype-storm.svg) ![NPM](https://img.shields.io/npm/l/@khalyomede/prototype-storm.svg) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@khalyomede/prototype-storm.svg) [![Build Status](https://travis-ci.com/khalyomede/prototype-storm.svg?branch=master)](https://travis-ci.com/khalyomede/prototype-storm) ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/@khalyomede/prototype-storm)
 
 ## Summary
 
@@ -41,9 +41,9 @@ import { max, radians, absolute } from "@khalyomede/prototype-storm"; // Superch
 const numbers = [-12, -41, -87];
 
 numbers
-	.max() // -12
-	.radians() // -0.20943951
-	.absolute(); // 0.20943951
+  .max() // -12
+  .radians() // -0.20943951
+  .absolute(); // 0.20943951
 ```
 
 Or import the whole prototypes:
